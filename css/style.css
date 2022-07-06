@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block{
+    height: 100vh;
+}
+.name-for-categories{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+.name-h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 1s;
+
+    margin-top: 100px;
+}
+.icon:first-child{
+    background-color: burlywood;
+    border: 20px solid rgb(165, 133, 90);
+}
+.icon:nth-child(2){
+    background-color: orangered;
+    border: 20px solid rgb(213, 57, 0);
+}
+.icon:last-child{
+    background-color: rgb(171, 0, 0);
+    border: 20px solid darkred;
+}
+.icon:hover{
+    width: 180px;
+    height: 180px;
+    transform: rotate(360deg);
+}
+.description{
+    display: flex;
+    justify-content: space-around;
+}
+.first-block,
+.second-block{
+    margin-top: 100px;
+}
+.text{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
